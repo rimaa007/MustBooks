@@ -1,0 +1,82 @@
+.html{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h1{
+    text-align: center;
+
+}
+header{
+    background-color:beige;
+}
+nav{
+    background-color:rgba(202, 155, 136, 0.63);
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.h:hover{
+    cursor: pointer;
+    color:bisque;
+}
+.flex,.flex1{
+    display:flex;
+    flex-direction:row;
+    padding:2px;
+    border:2px;
+    margin:5px;
+    justify-content:space-between;
+
+}
+img{
+    margin-block: 4px;
+    padding-left: 100px;;
+}
+.k{
+    background-color:beige;
+    width:100%;
+    height:20px;
+    text-align: center;
+}
+.book1,.book2,.book3,.book4,.book5,.book6{
+    border:5px;
+    border-radius:12px;
+    margin:2px;
+    padding:5px;
+    border-color: black;
+    background-color: bisque;
+    width:33%;
+    height:500px;
+    overflow: auto;
+}
+.book2{
+    align-self:baseline
+}
+.book1{
+    align-self: first baseline;
+}
+.book4{
+    align-self: first baseline;
+}
+.book5{
+    align-self:baseline;
+}
+@media screen and (max-width:600px)
+ {
+    .flex,.flex1{
+        overflow: auto;
+        flex-direction: column;
+        width:max-content;
+    }
+    .nav{
+        width:100%;
+    }
+
+ }
+ @media screen and (min-width:600px) and (max-width:991){
+    .flex,.flex1{
+        overflow:auto;
+        flex-direction: row;
+        width:33%;
+    }
+    
+ }
+ 
